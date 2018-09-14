@@ -1,0 +1,30 @@
+.main-container {
+  height: 300px;
+  width: 500px;
+  background-color: peru;
+ }
+
+
+@media (max-width:800px) {
+  .main-container {
+    background-color: green;
+    color: white;
+  }
+}
+
+
+
+/* .main-container {
+  height: 300px;
+  width: 500px;
+  background-color: peru;
+
+}
+
+@media (max-width:800px) {
+  .main-container {
+    background-color: green;
+con esto logramos que cuando llegue al tamaño 800px se cambie a verde el cuadrado y si agrandamos vuelve a peru  }
+
+
+MEDIA NO CAMBIA ESPECIFICIDAD si otro tiene mas especificidad, no va a cambiar} */
